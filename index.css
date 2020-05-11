@@ -1,0 +1,35 @@
+/* Aula inicial :D */
+body {
+    background-image:url('https://www.significadofacil.com/wp-content/uploads/2019/07/background.jpg');
+    background-size:auto 100vh;
+    height:100vh;
+    font-family:arial;
+  }
+  
+  .menu {
+    background-color:white
+  }
+  
+  .menu ul{
+    display:flex;
+    justify-content: space-between;
+  }
+  
+  .menu li{
+    list-style: none
+  }
+  
+  a{
+    color:teal;
+    text-decoration: none;
+  }
+  
+  a:haver{
+    text-decoration: underline;
+  }
+  
+  .site-subtitle,
+  .site-title {
+    color:	#48D1CC;
+    text-align:center;
+  }
