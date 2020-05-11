@@ -1,7 +1,7 @@
 /* Aula inicial :D */
 body {
     background-image:url('https://www.significadofacil.com/wp-content/uploads/2019/07/background.jpg');
-    -webkit-backdrop-filter:blur(50px);
+    backdrop-filter:url('https://www.significadofacil.com/wp-content/uploads/2019/07/background.jpg') blur(50px);
     background-size:auto 100vh;
     height:100vh;
     font-family:arial;
@@ -14,7 +14,7 @@ body {
   
   .menu ul{
     display:flex;
-    justify-content: space-between;
+    justify-content: space-around;
   }
   
   .menu li{
